@@ -31,9 +31,15 @@ a {
 }
 
 h1 {
+    flex: 1 0 40%;
     font-size: 1.1em;
     line-height: 1.2;
-    margin: 10px 0;
+}
+
+@media screen and (max-width: 415px) {
+    h1 {
+        font-size: .8em;
+    }
 }
 
 p {
@@ -48,7 +54,14 @@ p {
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
-    padding: 0 40px;
+    padding: 1.3rem 4rem;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
 }
 
 .flex {

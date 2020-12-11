@@ -2,12 +2,13 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: $white;
-    height: 70px;
+    height: 110px;
     ul {
         display: flex;
         margin-left: 4rem;
     }
     a {
+        font-size: 1rem;
         color: $white;
         padding: 10px;
         margin: 0 10px;
@@ -28,7 +29,10 @@
 @media screen and (max-width: 550px) {
     .navbar {
         height: 100px;
-        margin: 0 0 0 -1rem;
+        margin: 0;
+        ul {
+            margin: 0;
+        }
     }
 }
 
@@ -41,7 +45,4 @@
 }
 
 /***** VuesJS project *****/
-.navbar__link--vanilla a:hover {
-    color: $vanilla;
-    background: red;
-}
+

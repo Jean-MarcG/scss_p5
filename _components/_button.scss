@@ -9,7 +9,8 @@ button {
     color: $white;
     border: none;
     border-radius: 5px;
-    &:hover {
+    box-shadow: 1px 1px 2px 0.125em #828282;
+        &:hover {
         transform: translateY(-2px);
         transition: all 0.2s ease-in-out;
         background: #8a8989;
