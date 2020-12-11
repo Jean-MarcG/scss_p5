@@ -27,11 +27,12 @@ footer {
   bottom: 1.5rem;
   width: 100%;
   overflow: auto;
+  background: red;
 }
 
 footer p {
   text-align: center;
-  color: #000000;
+  color: #f0d91c;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: .8rem;
 }
@@ -78,7 +79,7 @@ footer p {
           justify-content: space-between;
 }
 
-.navbar .navbar__background--vanilla {
+.navbar.navbar__background--vanilla {
   background: black;
 }
 
@@ -95,6 +96,12 @@ footer p {
 
 .navbar__inner {
   margin: 1rem auto;
+}
+
+/***** VuesJS project *****/
+.navbar__link--vanilla a:hover {
+  color: #f0d91c;
+  background: red;
 }
 
 button {

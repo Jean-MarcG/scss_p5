@@ -20,7 +20,7 @@
     .flex {
         justify-content: space-between;
     }
-    .navbar__background--vanilla{
+    &.navbar__background--vanilla{
         background: black;
     }
 } 
@@ -38,4 +38,10 @@
 
 .navbar__inner {
     margin: 1rem auto;
+}
+
+/***** VuesJS project *****/
+.navbar__link--vanilla a:hover {
+    color: $vanilla;
+    background: red;
 }
