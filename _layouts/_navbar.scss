@@ -24,6 +24,12 @@
     &.navbar__background--vanilla{
         background: black;
     }
+    &.navbar--vue {
+        background: $vue;
+    }
+    &.navbar--react {
+        background: $react;
+    }
 } 
 
 @media screen and (max-width: 550px) {
@@ -36,13 +42,11 @@
     }
 }
 
-.navbar--vue {
-    background: $vue;
-}
+
 
 .navbar__inner {
     margin: 1rem auto;
 }
 
-/***** VuesJS project *****/
+
 
