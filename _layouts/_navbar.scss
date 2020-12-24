@@ -1,6 +1,6 @@
 .navbar {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: $white;
     height: 110px;
     ul {
@@ -9,6 +9,7 @@
     }
     a {
         font-size: 1rem;
+        font-weight: 600;
         color: $white;
         padding: 10px;
         margin: 0 10px;
@@ -23,6 +24,9 @@
     }
     &.navbar__background--vanilla{
         background: black;
+    }
+    &.navbar__background--react{
+        background: $react;
     }
 } 
 
@@ -44,6 +48,19 @@
     margin: 1rem auto;
 }
 
-/***** VuesJS project *****/
+.navbar__link--vanilla a:hover {
+    color: $vanilla;
+    transition: .5s ease-in-out;
+    color: $vanilla;
+    border-bottom: 2px $vanilla solid;
+    transition: .4s ease-in-out;
+}
 
+.navbar__link--vuejs a:hover {
+    color: $vue;
+    transition: .5s ease-in-out;
+    color: $vue;
+    border-bottom: 2px $vue solid;
+    transition: .4s ease-in-out;
+}
  

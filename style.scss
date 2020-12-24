@@ -104,3 +104,13 @@ p {
     }
 }
 
+@media screen and (max-width: 758px) {
+    .framework {
+        bottom: 4rem;
+        right: 2rem;
+    }
+    .framework p {
+        font-size: 10rem;
+        -webkit-text-stroke: .2rem rgb(17, 17, 17);
+    }
+}
